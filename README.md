@@ -1,7 +1,7 @@
 # Burger-App
 
 ## Abstract
-> Burger App! is a restaurant app that lets users input the names of burgers they'd like to eat. This application can be used to write, save information. This application use an express backend and save and retrieve data with SQL database.
+Burger App! is a restaurant app that lets users input the names of burgers they'd like to eat. This application can be used to write, save information. This application use an express backend and save and retrieve data with SQL database.
 
 ## Table of contents
 * [Abstract](#Abstract)
