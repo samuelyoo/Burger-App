@@ -34,10 +34,10 @@ demonstration will shown at below
 
 ## Technologies
 
-* Visual Studio (for demonstration)
 * Recording tool: [screencastify](https://www.screencastify.com/)
 * Heroku: [Heroku](https://samuelburgerapp.herokuapp.com/)
 * express js: [express](https://expressjs.com/)
+* handlebars js: [handelbars](https://handlebarsjs.com/)
 * mySQL : [mySQL](https://www.mysql.com/)
 
 
