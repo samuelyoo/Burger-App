@@ -1,4 +1,5 @@
 const mysql = require("mysql");
+var connection;
 
 class Database {
   constructor( config ) {
@@ -24,12 +25,27 @@ class Database {
   }
 }
 
-const db = new Database({
-  host: "localhost",
-  port: 3306,
-  user: process.env.DB_USER,
-  password: process.env.DB_PWD,
-  database: process.env.DB_NAME
-});
+if (process.env.JAWSDB_URL){
+    connection = mysql.createConnection(process.env.JAWSDB_URL);
+} else {
+    connection = mysql.createConnection({
+        host: "localhost",
+        port: 3306,
+        user: process.env.DB_USER,
+        password: process.env.DB_PWD,
+        database: process.env.DB_NAME
+    });
+};
+
+connection.connect();
+
+
+// const db = new Database({
+//   host: "localhost",
+//   port: 3306,
+//   user: process.env.DB_USER,
+//   password: process.env.DB_PWD,
+//   database: process.env.DB_NAME
+// });
 
 module.exports = db
