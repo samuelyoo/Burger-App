@@ -29,7 +29,7 @@ demonstration will shown at below
 
 ## Sample
 
-![sample](Assets/demo_burger.gif)
+![sample](/public/assets/demo_burger.gif)
 
 
 ## Technologies
