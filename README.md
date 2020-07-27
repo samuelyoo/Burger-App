@@ -1,4 +1,4 @@
-# Note-Taker
+# Burger-App
 
 ## Abstract
 > Burger App! is a restaurant app that lets users input the names of burgers they'd like to eat. This application can be used to write, save information. This application use an express backend and save and retrieve data with SQL database.
@@ -16,7 +16,7 @@
 
 This application is deployed with heroku. try link below.
 
-Note-Taker: [NoteTaker]()
+Burger-App: [Burger-App](https://samuelburgerapp.herokuapp.com/)
 
 
 ## Usage
@@ -29,15 +29,16 @@ demonstration will shown at below
 
 ## Sample
 
-![sample](Assets/demo_notetaker.gif)
+![sample](Assets/demo_burger.gif)
 
 
 ## Technologies
 
 * Visual Studio (for demonstration)
 * Recording tool: [screencastify](https://www.screencastify.com/)
-* Heroku: [Heroku]()
+* Heroku: [Heroku](https://samuelburgerapp.herokuapp.com/)
 * express js: [express](https://expressjs.com/)
+* mySQL : [mySQL](https://www.mysql.com/)
 
 
 ### Contact
